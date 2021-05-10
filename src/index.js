@@ -1,7 +1,6 @@
-// src/index.js
 require("./styles.css");
 var m = require("mithril")
 
-var UserList = require("./views/UserList")
+var InfiniteScroll = require("./views/InfiniteScroll")
 
-m.mount(document.body, UserList)
+m.mount(document.body, InfiniteScroll)
